@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     console.log("I re-rendered");
-  }, [update]);
+  }, []);
 
   useEffect(() => {
     let didCancel = false;
